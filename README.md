@@ -1,6 +1,7 @@
 # Base_Flutter
 
-# Code
+### Cấu trúc và mô hình app:
+```sh
 assets : 
          - fonts
          - icons
@@ -34,4 +35,23 @@ lib:
                        4. Tóm lại k có hàm hoặc biến bên view
      - views: các view chung cho nếu trùng nhau
      - main.dart
-#
+```
+
+### Các bước vẽ UI:
+```sh
+- Bước 1: Dựng ui đơn giản nhất: 
+         + Dựng khung và các item
+         + icon, image đc thay thế tạm bằng container để định hình
+- Bước 2: Export icon và căn chỉnh
+         + yêu cầu icon bé nhất 64px
+- Bước 3: Bố trí các item giống nhau trong các màn hình để vào views chung
+         
+```
+
+### Các version app:
+1. V1:
+- Phát hành nhanh nhất có thể
+- Kiểm soát bug tốt nhất
+- Yêu cầu chạy đc và ko cần tối ưu code
+- Không hỗ trợ xoay ngang hay đa ngôn ngữ
+- Chạy đc và ko giật lag
