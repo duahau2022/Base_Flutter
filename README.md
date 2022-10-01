@@ -1,6 +1,6 @@
 # Base_Flutter
 
-@
+# Code
 assets : 
          - fonts
          - icons
@@ -34,4 +34,4 @@ lib:
                        4. Tóm lại k có hàm hoặc biến bên view
      - views: các view chung cho nếu trùng nhau
      - main.dart
-@
+#
